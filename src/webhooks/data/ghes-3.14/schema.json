@@ -14022,6 +14022,141 @@
           "isRequired": true,
           "childParamsGroups": [
             {
+              "type": "array of objects",
+              "name": "assignees",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "string or null",
+                  "name": "name",
+                  "description": ""
+                },
+                {
+                  "type": "string or null",
+                  "name": "email",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "login",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "node_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "avatar_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string or null",
+                  "name": "gravatar_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "html_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "followers_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "following_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "gists_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "subscriptions_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "organizations_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "repos_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "received_events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "type",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "boolean",
+                  "name": "site_admin",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_at",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "user_view_type",
+                  "description": ""
+                }
+              ]
+            },
+            {
               "type": "string",
               "name": "created_at",
               "description": "<p>The time that the alert was created in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ.</code></p>",
@@ -14442,6 +14577,141 @@
           "description": "<p>The code scanning alert involved in the event.</p>",
           "isRequired": true,
           "childParamsGroups": [
+            {
+              "type": "array of objects",
+              "name": "assignees",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "string or null",
+                  "name": "name",
+                  "description": ""
+                },
+                {
+                  "type": "string or null",
+                  "name": "email",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "login",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "node_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "avatar_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string or null",
+                  "name": "gravatar_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "html_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "followers_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "following_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "gists_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "subscriptions_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "organizations_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "repos_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "received_events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "type",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "boolean",
+                  "name": "site_admin",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_at",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "user_view_type",
+                  "description": ""
+                }
+              ]
+            },
             {
               "type": "string",
               "name": "created_at",
@@ -15270,6 +15540,141 @@
               "type": "null",
               "name": "dismissal_approved_by",
               "description": ""
+            },
+            {
+              "type": "array of objects",
+              "name": "assignees",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "string or null",
+                  "name": "name",
+                  "description": ""
+                },
+                {
+                  "type": "string or null",
+                  "name": "email",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "login",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "node_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "avatar_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string or null",
+                  "name": "gravatar_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "html_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "followers_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "following_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "gists_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "subscriptions_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "organizations_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "repos_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "received_events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "type",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "boolean",
+                  "name": "site_admin",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_at",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "user_view_type",
+                  "description": ""
+                }
+              ]
             }
           ]
         },
@@ -15355,6 +15760,141 @@
           "description": "<p>The code scanning alert involved in the event.</p>",
           "isRequired": true,
           "childParamsGroups": [
+            {
+              "type": "array of objects",
+              "name": "assignees",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "string or null",
+                  "name": "name",
+                  "description": ""
+                },
+                {
+                  "type": "string or null",
+                  "name": "email",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "login",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "node_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "avatar_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string or null",
+                  "name": "gravatar_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "html_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "followers_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "following_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "gists_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "subscriptions_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "organizations_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "repos_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "received_events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "type",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "boolean",
+                  "name": "site_admin",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_at",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "user_view_type",
+                  "description": ""
+                }
+              ]
+            },
             {
               "type": "string",
               "name": "created_at",
@@ -15810,6 +16350,141 @@
           "isRequired": true,
           "childParamsGroups": [
             {
+              "type": "array of objects",
+              "name": "assignees",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "string or null",
+                  "name": "name",
+                  "description": ""
+                },
+                {
+                  "type": "string or null",
+                  "name": "email",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "login",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "node_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "avatar_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string or null",
+                  "name": "gravatar_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "html_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "followers_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "following_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "gists_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "subscriptions_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "organizations_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "repos_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "received_events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "type",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "boolean",
+                  "name": "site_admin",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_at",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "user_view_type",
+                  "description": ""
+                }
+              ]
+            },
+            {
               "type": "string",
               "name": "created_at",
               "description": "<p>The time that the alert was created in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ.</code></p>",
@@ -16135,6 +16810,141 @@
           "description": "<p>The code scanning alert involved in the event.</p>",
           "isRequired": true,
           "childParamsGroups": [
+            {
+              "type": "array of objects",
+              "name": "assignees",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "string or null",
+                  "name": "name",
+                  "description": ""
+                },
+                {
+                  "type": "string or null",
+                  "name": "email",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "login",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "node_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "avatar_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string or null",
+                  "name": "gravatar_id",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "html_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "followers_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "following_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "gists_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "subscriptions_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "organizations_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "repos_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "received_events_url",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "type",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "boolean",
+                  "name": "site_admin",
+                  "description": "",
+                  "isRequired": true
+                },
+                {
+                  "type": "string",
+                  "name": "starred_at",
+                  "description": ""
+                },
+                {
+                  "type": "string",
+                  "name": "user_view_type",
+                  "description": ""
+                }
+              ]
+            },
             {
               "type": "string",
               "name": "created_at",
